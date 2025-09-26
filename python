@@ -1,0 +1,11 @@
+import random
+
+getal= random.randint(1, 6)
+gok = int(input("kies een getal (1,6): "))
+
+if gok == getal:
+        print("gelijk")
+
+else:
+        print("gevall, een getal was", getal)
+
